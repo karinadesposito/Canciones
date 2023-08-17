@@ -1,34 +1,61 @@
 .card-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .track-card {
-  width: calc(25% - 20px); /* Cada tarjeta ocupará inicialmente el 25% del ancho del contenedor */
-
-  border-radius: 20px;
-  height: 100px;
-  color: rgb(53, 47, 47); 
-  background-color: rgb(209, 196, 82);
-  text-align: center; /* Centrar el contenido horizontalmente */
+ 
+  width: calc(35% - 20px);
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.2);
+  height: 130px;
+  color: #333333;
+  background-color: rgb(216, 213, 185);
+  text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Centrar verticalmente */
-  align-items: center; /* Centrar horizontalmente */
+  justify-content: center;
+  align-items: center;
   padding: 20px;
   margin: 20px;
 }
-
-/* Reducir espacio vertical entre las líneas */
-.track-card h1,
-.track-card p {
-  margin: 0; /* Elimina el margen vertical por defecto */
-  line-height: 1; /* Establece la altura de línea en 1 */
+h1 {
+  font-size: larger;
+  color: rgb(165, 89, 18);
+}
+p {
+  font-size: 1rem;
+  color: #666666;
+  margin-bottom: 20px;
+  transition: color 0.3s;
+}
+.track-card h1.hoover:hover {
+  color: #ff3c00;
+}
+.track-card h2.hoover:hover {
+  color: #ff3c00;
+}
+.track-card:hoover {
+  text-decoration: aquamarine;
 }
 
-/* Media query para estilos responsivos */
+.track-card h1,
+.track-card p {
+  margin: 0;
+  line-height: 1;
+}
+
 @media (max-width: 768px) {
   .track-card {
-    width: calc(50% - 20px); /* Ajusta el ancho de las tarjetas en dispositivos pequeños */
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 1rem; 
   }
 }
