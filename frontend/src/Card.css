@@ -1,0 +1,34 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.track-card {
+  width: calc(25% - 20px); /* Cada tarjeta ocupará inicialmente el 25% del ancho del contenedor */
+
+  border-radius: 20px;
+  height: 100px;
+  color: rgb(53, 47, 47); 
+  background-color: rgb(209, 196, 82);
+  text-align: center; /* Centrar el contenido horizontalmente */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centrar verticalmente */
+  align-items: center; /* Centrar horizontalmente */
+  padding: 20px;
+  margin: 20px;
+}
+
+/* Reducir espacio vertical entre las líneas */
+.track-card h1,
+.track-card p {
+  margin: 0; /* Elimina el margen vertical por defecto */
+  line-height: 1; /* Establece la altura de línea en 1 */
+}
+
+/* Media query para estilos responsivos */
+@media (max-width: 768px) {
+  .track-card {
+    width: calc(50% - 20px); /* Ajusta el ancho de las tarjetas en dispositivos pequeños */
+  }
+}

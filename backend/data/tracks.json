@@ -1,0 +1,64 @@
+[
+      {
+        "id": 1,
+        "title": "Walk on the Wild Side",
+        "duration": "3:45",
+        "artist": "Lou Reed"
+      },
+      {
+        "id": 2,
+        "title": "Canción 2",
+        "duration": "4:12",
+        "artist": "Lou Reed"
+      },
+      {
+        "id": 3,
+        "title": "Canción 3",
+        "duration": "3:20",
+        "artist": "Lou Reed"
+      },
+      {
+        "id": 4,
+        "title": "Canción 4",
+        "duration": "5:01",
+        "artist": "Lou Reed"
+      },
+      {
+        "id": 5,
+        "title": "Canción 5",
+        "duration": "2:58",
+        "artist": "Artista 5"
+      },
+      {
+        "id": 6,
+        "title": "Canción 6",
+        "duration": "4:30",
+        "artist": "Artista 6"
+      },
+      {
+        "id": 7,
+        "title": "Canción 7",
+        "duration": "3:15",
+        "artist": "Artista 7"
+      },
+      {
+        "id": 8,
+        "title": "Canción 8",
+        "duration": "4:55",
+        "artist": "Artista 8"
+      },
+      {
+        "id": 9,
+        "title": "Canción 9",
+        "duration": "3:40",
+        "artist": "Artista 9"
+      },
+      {
+        "id": 10,
+        "title": "Canción 10",
+        "duration": "3:08",
+        "artist": "Artista 10"
+      }
+    ]
+  
+  
